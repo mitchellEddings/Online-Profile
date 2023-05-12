@@ -4,9 +4,25 @@
     --light-gray: #C5D8D1;
 }
 
+/* #region nav stuff */
 .navbar{
     background-color: var(--blue);
 }
 .nav-link:hover{
     color: var(--light-gray);
+}
+/* #endregion */
+
+/* #region text */
+h1, h3 {
+    text-align: center;
+    margin-top: 1.3rem;
+}
+p{
+    padding: 1rem 5rem;
+}
+/* #endregion */
+
+img{
+    margin: 0rem 2rem;
 }
