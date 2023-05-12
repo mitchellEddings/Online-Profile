@@ -1,0 +1,12 @@
+:root{
+    --blue: #06A2C2;
+    --dark-gray: #636564;
+    --light-gray: #C5D8D1;
+}
+
+.navbar{
+    background-color: var(--blue);
+}
+.nav-link:hover{
+    color: var(--light-gray);
+}
